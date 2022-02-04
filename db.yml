@@ -10,8 +10,8 @@ Resources:
         - AttributeName: "id"
           KeyType: "HASH"
       ProvisionedThroughput: 
-        ReadCapacityUnits: "10"
-        WriteCapacityUnits: "10"
+        ReadCapacityUnits: "7"
+        WriteCapacityUnits: "7"
       TableName: "myTableNamelaet"
 
   ScalingRole:
