@@ -4,7 +4,7 @@ Description: S3 task using Cloudformation
 Parameters:
   bucketname:
     Type: String
-    Default: stelligent-u-laeticia.harper01
+    Default: stelligent-u-laeticia.harpertest
 
 Resources:
   S3Bucket:
